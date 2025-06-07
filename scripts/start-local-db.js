@@ -50,7 +50,8 @@ async function createTable(sql) {
 (async () => {
   try {
     neonConfig.fetchEndpoint = (host) => {
-      const [protocol, port] = host === 'db.localtest.me' ? ['http', 4444] : ['https', 443];
+      const [protocol, port] =
+        host === 'db.localtest.me' ? ['http', 4444] : ['https', 443];
       return `${protocol}://${host}:${port}/sql`;
     };
 

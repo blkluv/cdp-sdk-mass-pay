@@ -26,7 +26,11 @@ export const Header = () => {
         </Link>
         <ul className="flex space-x-6 items-center">
           <li>
-            <span className="text-gray-700 text-xl" role="img" aria-label="lightbulb">
+            <span
+              className="text-gray-700 text-xl"
+              role="img"
+              aria-label="lightbulb"
+            >
               💡
             </span>
           </li>

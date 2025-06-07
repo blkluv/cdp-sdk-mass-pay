@@ -9,7 +9,7 @@ A demo application of developer-custodied server wallet payments tool using the 
 
 ## License
 
-The *CDP Mass Payments App* is free and open source and released under the [Apache License, Version 2.0](LICENSE).
+The _CDP Mass Payments App_ is free and open source and released under the [Apache License, Version 2.0](LICENSE).
 
 The application and code are only available for demonstration purposes.
 
