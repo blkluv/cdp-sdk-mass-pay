@@ -16,7 +16,6 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaDiscord, FaGithub, FaLightbulb } from 'react-icons/fa';
 
 export const Header = () => {
   return (
@@ -27,33 +26,19 @@ export const Header = () => {
         </Link>
         <ul className="flex space-x-6 items-center">
           <li>
-            <a
-              href="https://docs.cdp.coinbase.com/wallet-api-v2/docs/welcome"
-              className="text-gray-700 hover:text-blue-600 transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLightbulb size={24} />
-            </a>
+            <span className="text-gray-700 text-xl" role="img" aria-label="lightbulb">
+              💡
+            </span>
           </li>
           <li>
             <a
-              href="https://github.com/coinbase-samples/cdp-sdk-mass-payments-ts"
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              href="https://irl.travel"
+              className="text-gray-700 hover:text-blue-600 transition-colors text-2xl"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="IRL Travel"
             >
-              <FaGithub size={24} />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://discord.gg/cdp"
-              className="text-gray-700 hover:text-blue-600 transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaDiscord size={24} />
+              🛂
             </a>
           </li>
         </ul>

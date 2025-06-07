@@ -44,7 +44,7 @@ export const Login = () => {
         <div className="text-center">
           <h1 className="text-3xl font-bold text-gray-900">Sign In</h1>
           <p className="mt-2 text-sm text-gray-600">
-            Sign in to access the application
+            Sign in to access the app to pay via email.
           </p>
         </div>
 
